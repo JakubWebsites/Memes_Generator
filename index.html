@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+	<meta name="discription" content=""/>
+	<meta name="keywords" content=""/>
+	<title>Generator Memów</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+
+<body>
+	
+	<div class="container">
+	
+		<header class="header">
+			<h1 class="header__name">Stwórz własnego mema!</h1>
+		</header>
+		
+		<div class="content">
+			<div class="content__box">
+				<div class="content__view">
+					<div class="picture__text textUp"></div>
+					<div class="picture__text textDown"></div>
+					<img src="" alt="" class="content__background">
+				</div>
+			</div>
+
+			<div class="content__editor">
+				<button class="editor__picture">
+					<p class="editor__discription">WYBIERZ OBRAZEK</p>
+				</button>
+
+				<div class="editor__text editor__textUp">
+					<p class="editor__discription">Wpisz poniżej tekst, który znajdzie się u góry mema lub zostaw to pole puste.</p>
+					<input type="text" class="textUp__input textInput" placeholder="Miejsce na Twój tekst">
+					<button class="textUp__confirm confirmButton">Zatwierdź</button>
+				</div>
+				
+				<div class="editor__text editor__textDown">
+					<p class="editor__discription">Wpisz poniżej tekst, który znajdzie się u dołu mema lub zostaw to pole puste.</p>
+					<input type="text" class="textDown__input textInput" placeholder="Miejsce na Twój tekst">
+					<button class="textDown__confirm confirmButton">Zatwierdź</button>
+				</div>
+
+				<div class="editor__reset">
+					<button class="editor__resetButton">Resetuj</button>
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="collection">
+			<img src="photos/dramat.png" alt="dramat" class="collection__item">
+			<img src="photos/dziewczynka.png" alt="dziewczynka" class="collection__item">
+			<img src="photos/filozoraptor.png" alt="filozoraptor" class="collection__item">
+			<img src="photos/spryciarz.png" alt="spryciarz" class="collection__item">
+			<img src="photos/suchar.png" alt="suchar" class="collection__item">
+			<img src="photos/zalamany.png" alt="zalamany" class="collection__item">
+		</div>
+		
+	</div>
+
+	<script src="main.js"></script>
+	
+</body>
+
+</html>

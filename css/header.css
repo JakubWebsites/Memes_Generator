@@ -1,0 +1,5 @@
+.header {
+    grid-row: 1/2;
+    text-align: center;
+    padding: 2rem 0 4rem 0;
+}
